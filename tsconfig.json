@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"outDir": "/dist",
+		"baseUrl": ".",
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"module": "esnext",
+		"lib": ["dom", "es5", "es6", "es7", "es2015.promise"],
+		"moduleResolution": "node",
+		"sourceMap": true
+	},
+	"include": ["packages/**/*"],
+	"exclude": ["node_modules"]
+}

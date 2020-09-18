@@ -1,0 +1,23 @@
+.settings/
+.DS_STORE
+.vscode
+.myeclipse/
+.gradle/
+target/
+*/.settings
+*/.classpath
+*/.project
+*.log*
+.classpath
+.project
+.idea/
+.svn/
+.externalToolBuilders/
+gradle/
+.recommenders/
+.metadata/
+*/node_modules
+node_modules
+# yarn
+yarn.lock
+package-lock.json

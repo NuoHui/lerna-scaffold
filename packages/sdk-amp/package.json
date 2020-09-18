@@ -1,0 +1,22 @@
+{
+  "name": "sdk-amp",
+  "version": "0.0.1",
+  "description": "demo",
+  "keywords": [],
+  "author": "xyz <xyz1657413883@gmail.com>",
+  "license": "MIT",
+  "main": "dist/amp.min.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "webpack --inline --progress"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.3"
+  }
+}

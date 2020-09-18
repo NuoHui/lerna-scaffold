@@ -1,0 +1,7 @@
+dist
+node_modules
+*.d.ts
+packages/**/dist
+packages/**/__tests__
+examples/*
+scripts/*

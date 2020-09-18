@@ -1,0 +1,17 @@
+{
+  "name": "ui-h5",
+  "version": "0.0.1",
+  "description": "ui-h5",
+  "keywords": [],
+  "author": "xyz <xyz1657413883@gmail.com>",
+  "license": "MIT",
+  "main": "lib/ui-h5.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {}
+}
