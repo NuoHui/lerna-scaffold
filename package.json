@@ -19,8 +19,9 @@
   },
   "scripts": {
     "clean": "rm -rf ./node_modules && lerna clean",
-    "init": "yarn install",
-    "publish": "lerna publish"
+    "init": "lerna bootstrap",
+    "version": "lerna version",
+    "publish": "lerna publish from-git"
   },
   "engines": {
     "node": ">=8.0.0"
