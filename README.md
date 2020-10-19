@@ -32,4 +32,5 @@ yarn run init
 
 - 发布到私有npm仓库，记得先检查配置`lerna.json`中到`registry`字段源是否正确，以及子package的`package.json`中`publishConfig`是否有强制设置其他源(不需要设置)。
 - 切换到私有npm源，npm login登陆账户。
-- 执行`yarn run publish`。
+- 根目录下执行`yarn run version`,选择要发布的包的版本、打tag、推到git。
+- 根目录下执行`yarn run publish`进行发布。
